@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    margin: 0px;
+    background-color: black;
+}
+
+#main {
+    /*background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);*/
+    background: url(background.png);
+    height: 900px;
+    width: 96.5%;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+    color: white;
+    font-size: 70px;
+}
+
+h2 {
+    color: white;
+    font-size: 20px;
+    margin-top: -30px;
+}
+
+.src-click {
+    height: 300px;
+    margin-top: 70px;
+    margin-left: 18px;
+    margin-right: 18px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+}
+
+.src-click:hover {
+    cursor: pointer;
+    box-shadow: 0 10px 15px 0 rgb(0, 0, 0), 0 18px 45px 0 rgba(0, 0, 0, 0.19);
+}

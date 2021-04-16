@@ -1,0 +1,232 @@
+<html>
+
+<head>
+    <title> Quantum Mechanics | The Quantum World </title>
+    <link rel="icon" href="planet.png">
+</head>
+
+<body>
+    <center>
+        <h1> Quantum Mechanics </h1>
+        <div id="def-div">
+            <h2> Definiton </h2>
+            <div class="line"></div>
+            <p>Quantum mechanics is a fundamental theory in physics that provides a description of the physical
+                properties of nature at the scale of atoms and subatomic particles. It is the foundation of all quantum
+                physics including quantum chemistry, quantum field theory, quantum technology, and quantum information
+                science. It deals with the mathematical description of the motion and interaction of subatomic
+                particles, incorporating the concepts of quantization of energy, wave–particle duality, the uncertainty
+                principle, and the correspondence principle.</p>
+        </div>
+        <br>
+        <div id="formulas-div">
+            <h2> Useful Videos </h2>
+            <div class="line"></div>
+            <br>
+            <iframe width="620" height="400" src="https://www.youtube.com/embed/LqY3TUW7skI"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="620" height="400" src="https://www.youtube.com/embed/7RmBH96QNyQ"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <br>
+        </div>
+        <br>
+        <div id="books-div">
+            <h2> Books </h2>
+            <div class="line"></div>
+            <br>
+            <a href="https://www.amazon.in/Quantum-Mechanics-Simplified-Shabnam-Siddiqui/dp/1138197262"
+                target="__blank">
+                <image class="books" src="quantum-mechanics-a-simplified-approached.jpg"></image>
+            </a>
+            <a href="https://www.amazon.in/Textbook-Quantum-Mechanics-M-Mathews/dp/0070965102" target="__blank">
+                <image class="books" src="a-textbook-of-quantum-mechanics.jpg"></image>
+            </a>
+            <a href="https://www.amazon.in/Introduction-Quantum-Mechanics-David-Griffiths/dp/1107189632/ref=pd_sim_6?pd_rd_w=JXJss&pf_rd_p=50deb200-8a68-4ed8-a116-c63752e766fe&pf_rd_r=1C1MAX6CJ1BACKF4Y163&pd_rd_r=1822f302-2590-4ace-892a-5558e72851b2&pd_rd_wg=4GGon&pd_rd_i=1107189632&psc=1"
+                target="__blank">
+                <image class="books"
+                    src="https://images-eu.ssl-images-amazon.com/images/I/41K19BWo3gL._SX198_BO1,204,203,200_QL40_FMwebp_.jpg">
+                </image>
+            </a>
+            <a href="https://www.amazon.in/Quantum-Mechanics-Applications-Nouredine-Zettili/dp/0470026790"
+                target="__blank">
+                <image class="books"
+                    src="https://images-eu.ssl-images-amazon.com/images/I/51Gis8DhDhL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg">
+                </image>
+            </a>
+            <br>
+        </div>
+        <br>
+        <div id="facts-div">
+            <h2> Facts </h2>
+            <div class="line"></div>
+            <br>
+                <image class="facts" src="https://i.pinimg.com/736x/ea/dc/f8/eadcf8bc1282b32d904bc75a227261bd.jpg"></image>
+                <image class="facts" src="https://i.pinimg.com/736x/ff/da/d0/ffdad02737f69e8bdfe6c537104eee48.jpg"></image>
+                <image class="facts" src="https://i.pinimg.com/736x/a8/9b/e0/a89be0c5e873eb8e40c2ebdd08f0b6d5.jpg"></image>
+            <br>
+        </div>
+        <br>
+        <button id="home-btn" onclick="funcHome()"> Back to Home </button>
+    </center>
+    <br>
+</body>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+    body {
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+        margin: 0px;
+        height: 900px;
+        width: 98%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background: url(p-wallpaper.jpg);
+        background-position: center;
+        scroll-behavior: smooth;
+    }
+
+    h1 {
+        font-family: 'Courgette', cursive;
+        color: black;
+        font-size: 60px;
+        text-shadow: 4px 4px cornsilk;
+    }
+
+    #def-div {
+        width: 70%;
+        text-align: center;
+        background-color: blanchedalmond;
+        font-size: 30px;
+        border-radius: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-family: New Tegomin;
+        border-style: solid;
+        border-width: 5px;
+        border-color: black;
+    }
+
+    h2 {
+        font-family: 'Courgette', cursive;
+        color: black;
+        text-shadow: 4px 4px cornsilk;
+    }
+
+    .line {
+        height: 6px;
+        background-color: #000;
+        width: 100px;
+        margin: 8px auto;
+    }
+
+    #formulas-div {
+        width: 70%;
+        text-align: center;
+        background-color: blanchedalmond;
+        font-size: 30px;
+        border-radius: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-family: New Tegomin;
+        border-style: solid;
+        border-width: 5px;
+        border-color: black;
+    }
+
+    #books-div {
+        width: 70%;
+        text-align: center;
+        background-color: blanchedalmond;
+        font-size: 30px;
+        border-radius: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-family: New Tegomin;
+        border-style: solid;
+        border-width: 5px;
+        border-color: black;
+    }
+
+    .books {
+        height: 400px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    a {
+        color: blanchedalmond;
+    }
+
+    #home-btn {
+        border: solid;
+        border-color: black;
+        border-width: thick;
+        background-color: deepskyblue;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        color: black;
+        border-radius: 12px;
+        font-family: monospace;
+    }
+
+    #home-btn:hover {
+        cursor: pointer;
+        box-shadow: 0 15px 20px 0 rgb(41, 13, 13), 0 18px 45px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    ::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+        background-color: rgb(0, 0, 0);
+    }
+
+    .books:hover {
+        cursor: pointer;
+        box-shadow: 0 8px 13px 0 rgba(0, 0, 0, 0.253), 0 18px 45px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    #facts-div {
+        width: 70%;
+        text-align: center;
+        background-color: blanchedalmond;
+        font-size: 30px;
+        border-radius: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-family: New Tegomin;
+        border-style: solid;
+        border-width: 5px;
+        border-color: black;
+    }
+
+    .facts {
+        height: 400px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 10px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: darkkhaki;
+    }
+</style>
+
+<script src="q-mechanics.js"></script>
+
+</html>

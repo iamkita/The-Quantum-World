@@ -1,0 +1,232 @@
+<html>
+
+<head>
+    <title> Quantum Computing | The Quantum World </title>
+    <link rel="icon" href="planet.png">
+</head>
+
+<body>
+    <center>
+        <h1> Quantum Computing </h1>
+        <div id="def-div">
+            <h2> Definiton </h2>
+            <div class="line"></div>
+            <p>Quantum computing is the use of quantum phenomena such as superposition and entanglement to perform
+                computation. Computers that perform quantum computations are known as quantum computers. Quantum
+                computers perform calculations based on the probability of an object's state before it is measured -
+                instead of just 1s or 0s - which means they have the potential to process exponentially more data
+                compared to classical computers. A single state - such as on or off, up or down, 1 or 0 - is called
+                a bit.</p>
+        </div>
+        <br>
+        <div id="formulas-div">
+            <h2> Useful Videos </h2>
+            <div class="line"></div>
+            <br>
+            <iframe width="620" height="400" src="https://www.youtube.com/embed/u1XXjWr5frE"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="620" height="400" src="https://www.youtube.com/embed/g_IaVepNDT4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <br>
+        </div>
+        <br>
+        <div id="books-div">
+            <h2> Books </h2>
+            <div class="line"></div>
+            <br>
+            <a href="https://www.amazon.in/Quantum-Computing-Approach-Jack-Hidary/dp/3030239217"
+                target="__blank">
+                <image class="books" src="https://images-na.ssl-images-amazon.com/images/I/41G0JZY2BkL._SX330_BO1,204,203,200_.jpg"></image>
+            </a>
+            <a href="https://www.amazon.in/Quantum-Computing-Computer-Scientists-Yanofsky/dp/0521879965" target="__blank">
+                <image class="books" src="https://images-eu.ssl-images-amazon.com/images/I/511jnKaGKaL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg"></image>
+            </a>
+            <a href="https://www.amazon.in/Introduction-Quantum-Computing-Phillip-Kaye/dp/019857049X"
+                target="__blank">
+                <image class="books"
+                    src="https://images-eu.ssl-images-amazon.com/images/I/51idK0pi0FL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg">
+                </image>
+            </a>
+            <a href="https://www.amazon.in/Quantum-Computing-Everyone-MIT-Press/dp/0262039257"
+                target="__blank">
+                <image class="books"
+                    src="https://images-na.ssl-images-amazon.com/images/I/41iXjxf+XtL._SY344_BO1,204,203,200_.jpg">
+                </image>
+            </a>
+            <br>
+        </div>
+        <br>
+        <div id="facts-div">
+            <h2> Facts </h2>
+            <div class="line"></div>
+            <br>
+                <image class="facts" src="1.png"></image>
+                <image class="facts" src="2.png"></image>
+                <image class="facts" src="3.png"></image>
+            <br>
+        </div>
+        <br>
+        <button id="home-btn" onclick="funcHome()"> Back to Home </button>
+    </center>
+    <br>
+</body>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+    body {
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+        margin: 0px;
+        height: 900px;
+        width: 98%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background: url(p-wallpaper.jpg);
+        background-position: center;
+        scroll-behavior: smooth;
+    }
+
+    h1 {
+        font-family: 'Courgette', cursive;
+        color: black;
+        font-size: 60px;
+        text-shadow: 4px 4px cornsilk;
+    }
+
+    #def-div {
+        width: 70%;
+        text-align: center;
+        background-color: blanchedalmond;
+        font-size: 30px;
+        border-radius: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-family: New Tegomin;
+        border-style: solid;
+        border-width: 5px;
+        border-color: black;
+    }
+
+    h2 {
+        font-family: 'Courgette', cursive;
+        color: black;
+        text-shadow: 4px 4px cornsilk;
+    }
+
+    .line {
+        height: 6px;
+        background-color: #000;
+        width: 100px;
+        margin: 8px auto;
+    }
+
+    #formulas-div {
+        width: 70%;
+        text-align: center;
+        background-color: blanchedalmond;
+        font-size: 30px;
+        border-radius: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-family: New Tegomin;
+        border-style: solid;
+        border-width: 5px;
+        border-color: black;
+    }
+
+    #books-div {
+        width: 70%;
+        text-align: center;
+        background-color: blanchedalmond;
+        font-size: 30px;
+        border-radius: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-family: New Tegomin;
+        border-style: solid;
+        border-width: 5px;
+        border-color: black;
+    }
+
+    .books {
+        height: 400px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    a {
+        color: blanchedalmond;
+    }
+
+    #home-btn {
+        border: solid;
+        border-color: black;
+        border-width: thick;
+        background-color: deepskyblue;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        color: black;
+        border-radius: 12px;
+        font-family: monospace;
+    }
+
+    #home-btn:hover {
+        cursor: pointer;
+        box-shadow: 0 15px 20px 0 rgb(41, 13, 13), 0 18px 45px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    ::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+        background-color: rgb(0, 0, 0);
+    }
+
+    .books:hover {
+        cursor: pointer;
+        box-shadow: 0 8px 13px 0 rgba(0, 0, 0, 0.253), 0 18px 45px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    #facts-div {
+        width: 70%;
+        text-align: center;
+        background-color: blanchedalmond;
+        font-size: 30px;
+        border-radius: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-family: New Tegomin;
+        border-style: solid;
+        border-width: 5px;
+        border-color: black;
+    }
+
+    .facts {
+        height: 400px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: darkkhaki;
+    }
+</style>
+
+<script src="q-computing.js"></script>
+
+</html>
